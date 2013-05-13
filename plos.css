@@ -1,0 +1,53 @@
+/**********************************************************
+           Styles for articles published by the PLoS.
+     					   
+Chrome:    Applies to 'URLs on the domain'
+           http://plos.org/
+
+Safar:		Untested.
+
+Source:    github.com/ayellowraven/academic_user_styles
+Version:   2013.05.1a
+
+			This is still in development, this stylesheet
+			may not be fully functional.
+***********************************************************/
+
+div.article {
+  	font-family: "Georgia", serif;
+  	font-size: 18px;
+	font-size: 1.125rem;
+  	line-height: 27px;
+  	line-height: 1.668rem;
+}
+
+div.article h3 {
+  	font-size: 24px;
+  	font-size: 1.5rem;
+}
+
+div.article h4 {
+ 	font-weight: bold; 
+}
+
+div.article h5 {
+	font-size: 18px;
+  	font-size: 1.125rem;
+  	font-weight: normal;
+  	color: #024;
+}
+
+div.article div.figure {
+  	font-size: 16px;
+  	font-size: 1rem;
+}
+
+div.article ul, div.article ol {
+  	padding-left: 0;
+}
+  
+
+div.article ol.references {
+  	font-size: 16px;
+	font-size: 1rem;
+}
