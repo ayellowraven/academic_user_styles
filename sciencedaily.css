@@ -1,0 +1,69 @@
+/**********************************************************
+           Styles for articles published by the PLoS.
+     					   
+Chrome:    Applies to 'URLs starting with'
+           http://www.sciencedaily.com/releases
+
+Safari:		Untested.
+
+Source:    github.com/ayellowraven/academic_user_styles
+Version:   2013.05.1a
+
+			This is still in development, this stylesheet
+			may not be fully functional.
+***********************************************************/
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  ilne-height: 1.5rem;
+  font-family: "Georgia", serif;
+}
+
+#content {
+  width: 100%;
+}
+
+#content h1#headline {
+  text-align: center;
+}
+
+#seealso {
+  position: absolute;
+  left: 0;
+}
+
+p#first span.date {
+  position: relative;
+  margin-left: -9.75rem;
+}
+
+p#first, div#text p {
+  width: 640px;
+  margin: 0 auto;
+  margin: 0 auto;
+  padding:0;
+
+  font-size: 18px;
+  line-height: 27px;
+}
+
+div#text p {
+  text-indent:27px;
+}
+
+#story {
+  width: 100%;
+}
+
+@media screen and (min-width: 32em) and (max-width: 50em) {
+  p#first, div#text p {
+    width: 560px;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  p#first, div#text p {
+    width: 640px;
+  }
+}
