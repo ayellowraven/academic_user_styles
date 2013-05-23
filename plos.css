@@ -51,3 +51,15 @@ div.article ol.references {
   	font-size: 16px;
 	font-size: 1rem;
 }
+
+div.article a {
+	color: #024;
+	-webkit-transition: color 0.5s ease; 
+	-moz-transition: color 0.5s ease; 
+	-o-transition: color 0.5s ease; 
+	transition: color 0.5s ease;
+}
+
+div.article a:hover {
+	color: #06c;
+}
