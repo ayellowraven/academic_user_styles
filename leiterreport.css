@@ -1,0 +1,34 @@
+/**********************************************************
+           Styles for Leiter Reports blog.
+     					   
+Chrome:    Applies to 'URLs on the domain'
+           leiterreports.typepad.com
+
+Safari:		Untested.
+
+Source:    github.com/ayellowraven/academic_user_styles
+Version:   2013.06.1a
+
+			This is still in development, this stylesheet
+			may not be fully functional.
+***********************************************************/
+
+.entry {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 27px;
+    line-height: 1.6875rem;
+    font-family: "Georgia";
+    width: 560px;
+  	margin: 27px auto;
+    margin: 1.6875rem auto;
+}
+
+.entry h3 {
+    font-size: 27px;
+    font-size: 1.6875rem;
+}
+
+.entry .entry-footer {
+      margin: 1.6875rem auto;
+}
