@@ -1,0 +1,16 @@
+/**********************************************************
+           Styles for Leiter Reports blog.
+     					   
+Chrome:    Applies to 'URLs on the domain'
+           jstor.org and www.jstor.org
+
+Safari:		URLs: http://*.jstor.org/stable/*.
+
+Source:    github.com/ayellowraven/academic_user_styles
+Version:   2013.10.1a
+
+			This is still in development, this stylesheet
+			may not be fully functional.
+***********************************************************/
+
+.article { font-size: 1rem; }
